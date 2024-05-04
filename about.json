@@ -1,15 +1,11 @@
 {
-  "name": "discourse-topic-list-highest-post-excerpt",
+  "name": "Latest Post Excerpts",
   "component": true,
   "authors": "dsims",
-  "about_url": "TODO: Put your theme's public repo or Meta topic URL here",
-  "license_url": "TODO: Put your theme's LICENSE URL here",
-  "learn_more": "TODO",
+  "about_url": "https://github.com/dsims/discourse-topic-list-highest-post-excerpt",
   "theme_version": "0.0.1",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {
-  },
-  "modifiers": {
-  }
+  "assets": {},
+  "modifiers": {}
 }

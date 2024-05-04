@@ -1,0 +1,42 @@
+@if $single_line == "true" {
+  .topic-list {
+    .topic-excerpt {
+      display: flex;
+      align-items: center;
+      height: 20px;
+      overflow: hidden;
+      line-height: var(--line-height-small);
+
+      span.topic-excerpt-more {
+        display: none;
+      }
+
+      img {
+        margin-right: 5px;
+        width: 16px;
+        height: 16px;
+      }
+
+      svg {
+        margin-right: 5px;
+      }
+
+      .emoji {
+        width: 16px;
+        height: 16px;
+      }
+
+      span {
+        display: block;
+        display: -webkit-box;
+        word-wrap: break-word;
+        white-space: break-spaces;
+        overflow-wrap: anywhere;
+        line-height: var(--line-height-large);
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

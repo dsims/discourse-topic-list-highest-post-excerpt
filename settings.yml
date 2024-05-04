@@ -1,4 +1,12 @@
-example_setting:
-  default: true
+show_avatars:
+  default: false
   description:
-    en: A description of a setting.
+    en: Display excerpt avatar.
+show_reply_icon:
+  default: false
+  description:
+    en: Display a reply icon before latest post excerpt.
+single_line:
+  default: false
+  description:
+    en: Apply styling to limit excerpt to a single line.
