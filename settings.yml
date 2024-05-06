@@ -10,3 +10,9 @@ single_line:
   default: false
   description:
     en: Apply styling to limit excerpt to a single line.
+categories:
+  type: list
+  default: ""
+  list_type: category
+  description:
+    en: Apply plugin to the following categories. Blank apply to all of them
