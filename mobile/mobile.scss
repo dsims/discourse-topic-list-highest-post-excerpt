@@ -1,0 +1,11 @@
+@if $use_topic_creator_avatar_mobile == "true" {
+  .topic-list-data {
+    .pull-left img {
+      display: none;
+    }
+
+    .topic-list-left-creator-avatar {
+      float: left;
+    }
+  }
+}

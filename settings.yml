@@ -10,3 +10,7 @@ single_line:
   default: false
   description:
     en: Apply styling to limit excerpt to a single line.
+use_topic_creator_avatar_mobile:
+  default: false
+  description:
+    en: Use the topic creator avatar on mobile instead of latest poster.
