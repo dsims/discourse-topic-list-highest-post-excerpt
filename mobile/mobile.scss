@@ -7,5 +7,19 @@
     .topic-list-left-creator-avatar {
       float: left;
     }
+
+    .topic-excerpt:not(.highest-post-excerpt) {
+      img.avatar {
+        display: none;
+      }
+    }
+  }
+} @else {
+  .topic-list-data {
+    .highest-post-excerpt {
+      img.avatar {
+        display: none;
+      }
+    }
   }
 }
