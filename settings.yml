@@ -6,6 +6,10 @@ show_reply_icon:
   default: false
   description:
     en: Display a reply icon before latest post excerpt.
+show_topic_excerpt:
+  default: false
+  description:
+    en: Show topic excerpts
 single_line:
   default: false
   description:
