@@ -5,7 +5,7 @@
   {{/if}}
 {{/if}}
 {{#if context.topic.highest_post_excerpt}}
-  <a href="{{context.topic.url}}" class="topic-excerpt highest-post-excerpt">
+  <a href="{{context.topic.lastPostUrl}}" class="topic-excerpt highest-post-excerpt">
     {{#if (theme-setting "show_reply_icon")}}
       {{d-icon "reply"}}
     {{/if}}
