@@ -1,3 +1,4 @@
+{{!-- has-modern-replacement --}}
 {{#if context.bulkSelectEnabled}}
 {{else}}
   {{#if (theme-setting "use_topic_creator_avatar_mobile")}}

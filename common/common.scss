@@ -1,7 +1,25 @@
+.topic-list {
+  .topic-excerpt {
+    display: none;
+    img {
+      margin-right: 5px;
+      width: 16px;
+      height: 16px;
+    }
+    svg {
+      margin-right: 5px;
+    }
+  }
+  .topic-excerpt-replacement {
+    display: flex;
+  }
+  .highest-post-excerpt {
+    display: flex;
+  }
+}
 @if $single_line == "true" {
   .topic-list {
     .topic-excerpt {
-      display: flex;
       align-items: center;
       height: 20px;
       overflow: hidden;
@@ -15,10 +33,6 @@
         margin-right: 5px;
         width: 16px;
         height: 16px;
-      }
-
-      svg {
-        margin-right: 5px;
       }
 
       .emoji {

@@ -6,6 +6,9 @@
 
     .topic-list-left-creator-avatar {
       float: left;
+      img {
+        display: inline;
+      }
     }
 
     .topic-excerpt:not(.highest-post-excerpt) {

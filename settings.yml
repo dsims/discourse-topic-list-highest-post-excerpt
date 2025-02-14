@@ -18,3 +18,15 @@ use_topic_creator_avatar_mobile:
   default: false
   description:
     en: Use the topic creator avatar on mobile instead of latest poster.
+enabled_categories:
+  type: list
+  list_type: category
+  default: ""
+  description:
+    en: Leave blank for all.
+enabled_tags:
+  type: list
+  list_type: tag
+  default: ""
+  description:
+    en: Leave blank for all.

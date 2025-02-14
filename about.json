@@ -3,9 +3,7 @@
   "component": true,
   "authors": "dsims",
   "about_url": "https://github.com/dsims/discourse-topic-list-highest-post-excerpt",
-  "theme_version": "0.0.3",
-  "minimum_discourse_version": null,
-  "maximum_discourse_version": null,
+  "theme_version": "0.0.4",
   "assets": {},
   "modifiers": {
     "serialize_topic_excerpts": true
