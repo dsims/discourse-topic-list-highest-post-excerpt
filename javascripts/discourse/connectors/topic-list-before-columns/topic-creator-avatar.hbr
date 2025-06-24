@@ -1,7 +1,0 @@
-{{!-- has-modern-replacement --}}
-{{#if context.bulkSelectEnabled}}
-{{else}}
-  {{#if (theme-setting "use_topic_creator_avatar_mobile")}}
-    <a class="topic-list-left-creator-avatar" href="{{context.topic.firstPostUrl}}" aria-label="{{i18n 'original_post'}}" data-user-card="{{context.topic.creator.username}}">{{avatar context.topic.creator imageSize="large"}}</a>
-  {{/if}}
-{{/if}}
